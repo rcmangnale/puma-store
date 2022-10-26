@@ -52,7 +52,7 @@ const Item = ({
 
           <div className="flex items-center justify-between w-28 my-2">
             <div className="flex items-center bg-white/80  px-1 rounded blur-effect-theme">
-              <h1 className="text-black text-sm font-medium">${price}</h1>
+              <h1 className="text-black text-sm font-medium">Rs{price}</h1>
             </div>
             <div className="flex items-center gap-1">
               <StarIcon className="icon-style w-5 h-5 md:w-4 md:h-4" />
@@ -81,7 +81,7 @@ const Item = ({
         </div>
         <div
           className={`flex items-center ${
-            ifExists ? "absolute top-5 right-1" : "justify-center"
+            ifExists ? "absolute  right-1" : "justify-center"
           }`}
         >
           <img
