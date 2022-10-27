@@ -45,7 +45,7 @@ return (
                 />
             </div>
             <div className='flex flex-row items-center justify-center gap-5 font-semibold text-slate-200'>
-            <p className='cursor-pointer hover:scale-125'>Home</p>
+            <p href="./" className='cursor-pointer hover:scale-125'>Home</p>
             <p className='cursor-pointer hover:scale-125'>Men</p>
             <p className='cursor-pointer hover:scale-125'>Women</p>
             <p className='cursor-pointer hover:scale-125'>New Arrivals</p>

@@ -1,7 +1,7 @@
 import heroimg from "../assets/pumabrand.png";
 
-import hightlightimg from "../assets/hightlightimg.png";
-import sneakershoe from "../assets/sneaker.png";
+import hightlightimg from "../assets/pumaconnect1.png";
+import sneakershoe from "../assets/pumarich.jpg";
 
 import clip from "../assets/video/clip.mp4";
 import vcover1 from "../assets/video/vcover1.png";
@@ -12,7 +12,7 @@ import psale1 from "../assets/pumalimited1.png";
 import psale2 from "../assets/pumalimited2.png";
 import psale3 from "../assets/pumalimited3.png";
 
-import product1 from "../assets/product1.png";
+import product1 from "../assets/pumashoes2.png";
 import product2 from "../assets/product2.png";
 import product3 from "../assets/product3.png";
 import product4 from "../assets/product4.png";
@@ -85,19 +85,20 @@ const popularsales = {
 
 const highlight = {
   heading: "HIGHLIGHTS",
-  title: "NIKE AIR WITH LIMITLESS CHOICES",
-  text: "Our Purpose is to move the world forward. We take action by building community, protecting our planet and increasing access to sport.",
+  title: "RS-Connect Adapt sneakers Limited Choices",
+  text: "RS technology but in low-maintenance black on black? Take my money. I feel batman would wear these if he had the time to be a sneakerhead.",
   btn: "Explore More",
-  url: "https://www.nike.com/launch/t/nocta-hot-step-black-gold",
+  url: "https://www.farfetch.com/in/shopping/men/puma-rs-connect-adapt-sneakers-item-18534225.aspx?storeid=11218",
   img: hightlightimg,
+
 };
 
 const sneaker = {
   heading: "FEATURED",
-  title: "NIKE SNEAKERS AIR LANCING SHOES",
-  text: "The radiance lives on Nike Sneakers Air Lancing Shoes, the basket ball OG that puts a fresh spin on what you know best: durably stitched overlays, clean finishes and the perfect amount of flash to make you shine.",
+  title: "x Rick and Morty MB.01 LaMelo Ball sneakers",
+  text: "'Rick and Morty' by Sitcom has quickly become one of the most popular series of recent years. The PUMA LaMelo Ball takes inspiration from the duo for one of their newest PUMA MB.01 colourways.",
   btn: "Explore More",
-  url: "https://sneakernews.com/2022/03/21/nike-lebron-2-retro-white-midnight-navy-varsity-crimson-dr0826-100/",
+  url: "https://www.farfetch.com/in/shopping/men/puma-x-rick-and-morty-mb01-lamelo-ball-sneakers-item-18132322.aspx?storeid=11218",
   img: sneakershoe,
 };
 
@@ -106,7 +107,7 @@ const toprateslaes = {
   items: [
     {
       id: "0M0x1",
-      title: "Nike Air Low Premium",
+      title: "Puma Air Low Premium",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -117,7 +118,7 @@ const toprateslaes = {
     },
     {
       id: "0M0x2",
-      title: "Nike Air Force Green",
+      title: "Puma Air Force Green",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -128,7 +129,7 @@ const toprateslaes = {
     },
     {
       id: "0M0x3",
-      title: "Nike Addapt BB Rose",
+      title: "Puma Addapt BB Rose",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -139,7 +140,7 @@ const toprateslaes = {
     },
     {
       id: "0M0x4",
-      title: "Nike Air Premium",
+      title: "Puma Air Premium",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -150,7 +151,7 @@ const toprateslaes = {
     },
     {
       id: "0M0x5",
-      title: "Nike Adapt BB Pro",
+      title: "Puma Adapt BB Pro",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -172,7 +173,7 @@ const toprateslaes = {
     },
     {
       id: "0M0x7",
-      title: "Nike Multi Smart Shoe",
+      title: "Puma Multi Smart Shoe",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -183,7 +184,7 @@ const toprateslaes = {
     },
     {
       id: "0M0x8",
-      title: "Nike Jordan Air Max",
+      title: "Puma Jordan Air Max",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -194,7 +195,7 @@ const toprateslaes = {
     },
     {
       id: "0M0x9",
-      title: "Nike Old Max-x",
+      title: "Puma Old Max-x",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -205,7 +206,7 @@ const toprateslaes = {
     },
     {
       id: "0M0x10",
-      title: "Nike Lime Jordan 11",
+      title: "Puma Lime Jordan 11",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -216,7 +217,7 @@ const toprateslaes = {
     },
     {
       id: "0M0x11",
-      title: "Nike Air Black Max",
+      title: "Puma Air Black Max",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -227,7 +228,7 @@ const toprateslaes = {
     },
     {
       id: "0M0x12",
-      title: "Nike Zoom Max",
+      title: "Puma Zoom Max",
       text: "MEN Running Shoes",
       rating: "5+",
       btn: "Buy Now",
@@ -254,7 +255,7 @@ const story = {
       btn: "Read More"
     },
     {
-      title: "Bro’s Nike Zoom Freak 4",
+      title: "Bro’s Puma Zoom Freak 4",
       text: "Arriving right time for the Fall, this upcoming take on the Zoom Freak 4 seemingly draws inspiration from Thanksgiving. Orange and brown, two staples of the holiday, are used throughout the upper, dressing the parts not bathed in shades of grey.",
       img: "https://sneakernews.com/wp-content/uploads/2022/09/nike-zoom-freak-4-ironstone-orange-trance-cobblestone-sail-dj6149-003-2.jpg?w=540&h=380&crop=1",
       time: "41 Mins",
@@ -264,8 +265,8 @@ const story = {
       btn: "Read More"
     },
     {
-      title: "Nike Air Max Plus",
-      text: "The Nike Air Max Plus has enjoyed the reveal of several colorways these last few of months. And as we officially embark on the Fall season, an additional set have been added to the calendar, including this newly-revealed grey and orange colorway.",
+      title: "Puma Air Max Plus",
+      text: "The Puma Air Max Plus has enjoyed the reveal of several colorways these last few of months. And as we officially embark on the Fall season, an additional set have been added to the calendar, including this newly-revealed grey and orange colorway.",
       img: "https://sneakernews.com/wp-content/uploads/2022/09/Nike-Air-Max-Plus-FB3358-001-2.jpg?w=540&h=380&crop=1",
       time: "2 Hours",
       url: "https://sneakernews.com/2022/09/14/nike-air-max-plus-grey-orange-black-fb3358-001/",
@@ -284,11 +285,11 @@ const story = {
       btn: "Read More"
     },
     {
-      title: "Nike Air Zoom GT Cut 2",
-      text: "The Bred coloryway of Zoom GT Cut 2 will be first to release this Friday, For Nike Members Nation World Wide while Sabrina Ionescus colorway is set for an October 13th release date. In the meantime, enjoy official images of both colorways below.",
+      title: "Puma Air Zoom GT Cut 2",
+      text: "The Bred coloryway of Zoom GT Cut 2 will be first to release this Friday, For Puma Members Nation World Wide while Sabrina Ionescus colorway is set for an October 13th release date. In the meantime, enjoy official images of both colorways below.",
       img: "https://sneakernews.com/wp-content/uploads/2022/09/nike-zoom-gt-cut-2-release-date.jpg?w=540&h=380&crop=1",
       time: "1 Months",
-      url: "https://sneakernews.com/2022/09/13/nike-zoom-gt-cut-2-officially-unveiled/",
+      url: "https://sneakernews.com/2022/09/13/Puma-zoom-gt-cut-2-officially-unveiled/",
       like: "3/5",
       by: "Jared Ebanks",
       btn: "Read More"
@@ -304,8 +305,8 @@ const story = {
       btn: "Read More"
     },
     {
-      title: "Nike Air Force Orange Color",
-      text: "From lace toggles to city-inspired makeovers, the Nike Air Force 1 has delivered a number of unique modifications. Here though, the brand is taking things down quite a few notches, opting for a simple colorway helmed primarily by black and Laser Orange.",
+      title: "Puma Air Force Orange Color",
+      text: "From lace toggles to city-inspired makeovers, the Puma Air Force 1 has delivered a number of unique modifications. Here though, the brand is taking things down quite a few notches, opting for a simple colorway helmed primarily by black and Laser Orange.",
       img: "https://sneakernews.com/wp-content/uploads/2022/09/Nike-Air-Force-1-Black-Yellow-FB7162-081-8.jpg?w=540&h=380&crop=1",
       url: "https://sneakernews.com/2022/09/09/nike-air-force-1-black-laser-orange-fb7162-081/",
       time: "6 Days",
@@ -361,7 +362,7 @@ const footerAPI = {
       {link: "Promotions"},
       {link: "Find A Store"},
       {link: "Signup"},
-      {link: "Nike Jouneral"},
+      {link: "Puma Jouneral"},
       {link: "Send Us Feeback"},
     ],
   ],
