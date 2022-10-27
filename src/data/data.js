@@ -267,10 +267,10 @@ const story = {
     },
     {
       title: "PUMA MB.02 “Supernova",
-      text: "the Salehe Bembury x Crocs Pollex Clog and the AMBUSH x Nike Air Adjust Force — there’s quite a bit of newness in the mix,Come Tees is rejoining Converse for customized Chucks and One Stars",
-      img: "https://sneakernews.com/wp-content/uploads/2022/08/AMBUSH-Nike-Air-Adjust-Force-12.jpg",
+      text: "LaMelo Ball and PUMA had a hit in their hands with the MB.01. Ahead of the 2022-23 NBA season, the two entities unveiled the follow-up to what’s been widely considered one of the best entries into a signature series in sometime.",
+      img: "https://sneakernews.com/wp-content/uploads/2022/10/PUMA-MB-02-Phoenix-04.jpg",
       time: "2 Hours",
-      url: "https://sneakernews.com/2022/10/16/upcoming-sneaker-releases-2022-oct-17-to-oct-23/",
+      url: "https://sneakernews.com/2022/10/25/lamelo-ball-puma-mb-02-phoenix/",
       like: "5/5",
       by: "LaMelo Ball",
       btn: "Read More"
