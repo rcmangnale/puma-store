@@ -23,7 +23,7 @@ const Hero = ({ heroapi: { title, subtitle, btntext, img, url, videos } }) => {
                 />
               ))}
             </div>
-            <div className='grid items-center absolute top-[33vh] lg:top-[27vh] right-40 gap-3'>
+            <div className='grid items-center absolute top-[33vh] lg:top-[27vh] right-40 sm:right-6 gap-3'>
             {videos?.map((val, i) => (
                 <Clips
                   key={i}

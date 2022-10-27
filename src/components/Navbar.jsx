@@ -45,10 +45,10 @@ return (
                 />
             </div>
             <div className='flex flex-row items-center justify-center gap-5 font-semibold text-slate-900'>
-            <p href="./" className='cursor-pointer hover:scale-125'>Home</p>
+            <p href="./" className='cursor-pointer hover:scale-125 sm:invisible visible'>Home</p>
             <p className='cursor-pointer hover:scale-125'>Puma Store</p>
             {/* <p className='cursor-pointer hover:scale-125'>Women</p> */}
-            <p className='cursor-pointer hover:scale-125'>New Arrivals</p>
+            <p className='cursor-pointer hover:scale-125 sm:invisible visible'>New Arrivals</p>
             </div>
             <ul className='flex items-center justify-center gap-2'>
                 <li className='grid items-center'>
