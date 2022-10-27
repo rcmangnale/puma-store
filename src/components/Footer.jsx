@@ -9,7 +9,7 @@ const Footer = ({ footerAPI: { titles, links, sociallinks } }) => {
   return (
    <>
       <footer className='pb-5 bg-theme pt-7'>
-        <div className='nike-container text-slate-200'>
+        <div className='puma-container text-slate-200'>
           <div className='grid items-start w-full max-w-2xl grid-cols-3 m-auto md:max-w-none md:gap-5'>
             {titles.map((val, i) => (
               <div key={i} className="grid items-center">

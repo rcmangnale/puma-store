@@ -12,18 +12,18 @@ import psale1 from "../assets/pumalimited1.png";
 import psale2 from "../assets/pumalimited2.png";
 import psale3 from "../assets/pumalimited3.png";
 
-import product1 from "../assets/pumashoes2.png";
-import product2 from "../assets/product2.png";
+import product8 from "../assets/pumashoes2.png";
+import product4 from "../assets/product2.png";
 import product3 from "../assets/product3.png";
-import product4 from "../assets/product4.png";
+import product2 from "../assets/product4.png";
 import product5 from "../assets/product5.png";
-import product6 from "../assets/product6.png";
-import product7 from "../assets/product7.png";
-import product8 from "../assets/product8.png";
-import product9 from "../assets/product9.png";
+import product7 from "../assets/product6.png";
+import product6 from "../assets/product7.png";
+import product1 from "../assets/product8.png";
+import product12 from "../assets/product9.png";
 import product10 from "../assets/product10.png";
 import product11 from "../assets/product11.png";
-import product12 from "../assets/product12.png";
+import product9 from "../assets/product12.png";
 
 
 import facebook from "../assets/facebook.svg";
@@ -36,7 +36,8 @@ const heroapi = {
   title: "Forever faster",
   subtitle: "FUEL YOUR PASSION",
   img: heroimg,
-  btntext: "Explore Product",
+  btntext: "Explore History",
+  url: "https://www.fatbuddhastore.com/history-of-puma-i194",
   videos: [
     { imgsrc: vcover1, clip: clip },
     { imgsrc: vcover2, clip: clip },
@@ -54,7 +55,7 @@ const popularsales = {
       rating: "4.9",
       btn: "Buy Now",
       img: psale2,
-      price: "200",
+      price: "20000",
       color: "from-blue-600 to-blue-500",
       shadow: "shadow-lg shadow-blue-500",
     },
@@ -65,7 +66,7 @@ const popularsales = {
       rating: "4.5",
       btn: "Buy Now",
       img: psale1,
-      price: "200",
+      price: "30000",
       color: "from-red-500 to-rose-500",
       shadow: "shadow-lg shadow-rose-500",
     },
@@ -76,7 +77,7 @@ const popularsales = {
       rating: "5+",
       btn: "Buy Now",
       img: psale3,
-      price: "200",
+      price: "50000",
       color: "from-violet-500 to-indigo-500",
       shadow: "shadow-lg shadow-violet-500",
     },
@@ -245,51 +246,51 @@ const story = {
   title: "Top Stories",
   news: [
     {
-      title: "Jayson Tatum Debuts",
-      text: "Jordan Brands signature model for the past few years, Jayson Tatum will be dawning the Air Jordan 37 this season before attaining potentially his first signature sneaker with Jumpman, which he rumored to be in the works recently via his Twitter.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/air-jordan-37-low.jpg?w=540&h=380&crop=1",
-      url: "https://sneakernews.com/2022/09/14/air-jordan-37-low/",
-      like: "3/5",
+      title: "LaMelo Ball’s PUMA MB.02",
+      text: "LaMelo Ball and PUMA had a hit in their hands with the MB.01. Ahead of the 2022-23 NBA season, the two entities unveiled the follow-up to what’s been widely considered one of the best entries into a signature series in sometime.",
+      img: "https://sneakernews.com/wp-content/uploads/2022/10/PUMA-MB-02-Phoenix-04.jpg",
+      url: "https://sneakernews.com/2022/10/25/lamelo-ball-puma-mb-02-phoenix/",
+      like: "4/5",
       time: "11 Mins",
-      by: "Jared Ebanks",
+      by: "LaMelo Ball",
       btn: "Read More"
     },
     {
-      title: "Bro’s Puma Zoom Freak 4",
-      text: "Arriving right time for the Fall, this upcoming take on the Zoom Freak 4 seemingly draws inspiration from Thanksgiving. Orange and brown, two staples of the holiday, are used throughout the upper, dressing the parts not bathed in shades of grey.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/nike-zoom-freak-4-ironstone-orange-trance-cobblestone-sail-dj6149-003-2.jpg?w=540&h=380&crop=1",
+      title: "Bro’s Puma PUMA MB.02",
+      text: "Sneakersnstuff (SNS) is never not working. As a follow-up to a mule-centered collection inspired by Japanese home goods, the European boutique.",
+      img: "https://sneakernews.com/wp-content/uploads/2022/10/SNS-PUMA-Blaze-of-Glory-2022-2.jpg",
       time: "41 Mins",
       like: "5/5",
-      url: "https://sneakernews.com/2022/09/14/nike-zoom-freak-4-ironstone-orange-trance-cobblestone-sail-dj6149-003/",
-      by: "Michael Le",
+      url: "https://sneakernews.com/2022/10/18/sns-puma-blaze-of-glory-release-date/",
+      by: "Kojey Radical",
       btn: "Read More"
     },
     {
-      title: "Puma Air Max Plus",
-      text: "The Puma Air Max Plus has enjoyed the reveal of several colorways these last few of months. And as we officially embark on the Fall season, an additional set have been added to the calendar, including this newly-revealed grey and orange colorway.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/Nike-Air-Max-Plus-FB3358-001-2.jpg?w=540&h=380&crop=1",
+      title: "PUMA MB.02 “Supernova",
+      text: "the Salehe Bembury x Crocs Pollex Clog and the AMBUSH x Nike Air Adjust Force — there’s quite a bit of newness in the mix,Come Tees is rejoining Converse for customized Chucks and One Stars",
+      img: "https://sneakernews.com/wp-content/uploads/2022/08/AMBUSH-Nike-Air-Adjust-Force-12.jpg",
       time: "2 Hours",
-      url: "https://sneakernews.com/2022/09/14/nike-air-max-plus-grey-orange-black-fb3358-001/",
+      url: "https://sneakernews.com/2022/10/16/upcoming-sneaker-releases-2022-oct-17-to-oct-23/",
       like: "5/5",
-      by: "Michael Le",
+      by: "LaMelo Ball",
       btn: "Read More"
     },
     {
-      title: "Air Jordan Retro High OG",
-      text: "Air Jordan Retro High OG popular series of AJ1s with the popular color-blocking with the original Yellow Toe flavor. The colorway was revealed back PE by musician Zach Myers, nearly four years later, Jordan fanatics will finally get their shot a GR release.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/03/yellow-toe-jordan-1-release-date-2.jpg",
+      title: "Puma Fusion Nitro Pays",
+      text: "In his lone season at Duke, RJ Barrett was anointed the Maple Mamba – an ode to both the late Kobe Bryant’s and the freshman’s relentless nature on the court coupled with Barrett’s Canadian nationality.",
+      img: "https://sneakernews.com/wp-content/uploads/2022/09/puma-fusion-nitro-rj-barrett-4.jpg",
       time: "7 Months",
-      url: "https://sneakernews.com/2022/03/09/air-jordan-1-retro-high-og-yellow-toe-555088-711/",
+      url: "https://sneakernews.com/2022/09/20/puma-fusion-nitro-rj-barrett/",
       like: "5/5",
-      by: "Sneaker News",
+      by: " Kobe Bryant",
       btn: "Read More"
     },
     {
-      title: "Puma Air Zoom GT Cut 2",
+      title: "Ball x Puma MB.01 “Red Blast",
       text: "The Bred coloryway of Zoom GT Cut 2 will be first to release this Friday, For Puma Members Nation World Wide while Sabrina Ionescus colorway is set for an October 13th release date. In the meantime, enjoy official images of both colorways below.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/nike-zoom-gt-cut-2-release-date.jpg?w=540&h=380&crop=1",
+      img: "https://sneakernews.com/wp-content/uploads/2021/12/puma-mb-01-lamelo-ball-37723702-release-date-1.jpg",
       time: "1 Months",
-      url: "https://sneakernews.com/2022/09/13/Puma-zoom-gt-cut-2-officially-unveiled/",
+      url: "https://sneakernews.com/2021/12/07/lamelo-ball-puma-mb-01-red-blast-fiery-red-store-list/",
       like: "3/5",
       by: "Jared Ebanks",
       btn: "Read More"
@@ -299,36 +300,36 @@ const story = {
       text: "For the first time in over a decade, a signature basketball silhouette is being made for one of the WNBA’s best and brightest stars, Olympic Gold Medalist and Seattle Storm superstar Breanna Stewart. Puma Stewie 1 Quiet Fire will be available this Friday.",
       img: "https://sneakernews.com/wp-content/uploads/2022/09/puma-stewie-1-quiet-fire-breanna-stewart-release-date-lead.jpg?w=540&h=380&crop=1",
       time: "25 Days",
-      url: "https://sneakernews.com/2022/09/13/nike-zoom-gt-cut-2-officially-unveiled/",
+      url: "https://sneakernews.com/2022/09/12/puma-stewie-1-quiet-fire-breanna-stewart-shoes-release-date/",
       like: "3/5",
-      by: "Jared Ebanks",
+      by: "Breanna Stewart",
       btn: "Read More"
     },
     {
-      title: "Puma Air Force Orange Color",
-      text: "From lace toggles to city-inspired makeovers, the Puma Air Force 1 has delivered a number of unique modifications. Here though, the brand is taking things down quite a few notches, opting for a simple colorway helmed primarily by black and Laser Orange.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/Nike-Air-Force-1-Black-Yellow-FB7162-081-8.jpg?w=540&h=380&crop=1",
-      url: "https://sneakernews.com/2022/09/09/nike-air-force-1-black-laser-orange-fb7162-081/",
-      time: "6 Days",
+      title: "MCM x Puma Slipstream",
+      text: "Show up, show out and show love; just three of the many unofficial rules present in the game of basketball. For their latest collaboration, German fashion luxury haus MCM is utilizing the latter two phrases",
+      img: "https://sneakernews.com/wp-content/uploads/2022/09/mcm-puma-slipstream-lo-release-date-lead.jpg",
+      url: "https://sneakernews.com/2022/09/07/mcm-puma-slipstream-lo-release-date-2/",
+      time: "6 min",
       like: "4/5",
-      by: "Micael Le",
+      by: "MCM x Puma",
       btn: "Read More"
     },
     {
-      title: "Hello Kitty and Adidas",
-      text: "The world of Sanrio is vast and replete with many an iconic character. Few among the family, though, rival the immense influence of Hello Kitty, who’s played mascot for everything from Pringles merchandise to sneaker collaborations.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/hello-kitty-adidas-superstar-GW7168-2.jpg?w=540&h=380&crop=1",
-      url: "https://sneakernews.com/2022/09/08/hello-kitty-adidas-originals-gw7166-gw7167-gw7168/",
+      title: "The PUMA MB.02",
+      text: "As LaMelo Ball and the Charlotte Hornets head into the 2022-23 NBA season, the 21-year-old guard and his PUMA family have been cooking up new styles of his first signature model with the German company. Recently, however, reliable sources have teased what’s believed to be the MB.02, Ball’s second PUMA shoe.",
+      img: "https://sneakernews.com/wp-content/uploads/2022/07/puma-mb-01-low-team-white-red-376941-10-2.jpg",
+      url: "https://sneakernews.com/2022/07/06/puma-mb-01-lo-team-release-date/",
       time: "5 Days",
       like: "4/5",
-      by: "Micael Le",
+      by: "LaMelo Ball",
       btn: "Read More"
     },
     {
-      title: "Air Force 1 Low Expands",
-      text: "The nighttime aesthetic seen here is applied to the tumbled black leather panels of the upper and perforated mesh construction of the tongue while Royal trim and forefoot Swooshes provide additional intrigue to the darkened palette.",
-      img: "https://sneakernews.com/wp-content/uploads/2022/09/nike-air-force-1-low-worldwide-black-royal-fb1840-001-lead.jpg?w=540&h=380&crop=1",
-      url: "https://sneakernews.com/2022/09/08/nike-air-force-1-low-worldwide-black-royal-fb1840-001/",
+      title: "Puma Court Rider",
+      text: "Before the Puma Suede became a tried-and-true lifestyle classic, its debut in 1968 struck the street style scene as a silhouette that broke away from the leather and canvas constructions.",
+      img: "https://sneakernews.com/wp-content/uploads/2021/04/puma-court-rider-lead.jpg",
+      url: "https://sneakernews.com/2021/04/12/puma-hoops-expands-footwear-offering-with-the-court-rider/",
       time: "5 Days",
       like: "4/5",
       by: "Micael Le",
@@ -339,7 +340,7 @@ const story = {
 
 
 const footerAPI = {
-  titles: [ {title: "About Nike"},{title: "Get Help"},{title: "Company"} ],
+  titles: [ {title: "About Puma"},{title: "Get Help"},{title: "Company"} ],
   links: [
     [
       {link: "News"},
