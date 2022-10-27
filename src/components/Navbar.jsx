@@ -34,7 +34,7 @@ const Navbar = () => {
 return (
    <>
       <header className={
-        !navState ? 'absolute top-3 left-0 right-0 opacity-100 z-50' : 'fixed top-0 left-0 right-0 h-[9vh] flex items-center justify-center opacity-100 z-[200] blur-effect-theme'
+        !navState ? 'absolute top-3 left-0 right-0 opacity-100 z-50' : 'fixed top-0 left-0 right-0 h-[9vh] flex items-center px-2 justify-center opacity-100 z-[200] blur-effect-theme'
       }>
         <nav className='flex items-center justify-between puma-container'>
             <div className='flex items-center'>
