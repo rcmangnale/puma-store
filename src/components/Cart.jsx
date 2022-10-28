@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect,useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
   selectCartItems,
@@ -12,8 +12,10 @@ import {
 import CartCount from "./cart/CartCount";
 import CartEmpty from "./cart/CartEmpty";
 import CartItem from "./cart/CartItem";
+import MyModal from "./MyModel.jsx";
 
 const Cart = () => {
+  const [ShowMyModel, setShowMyModel] = useState(false)
   const dispatch = useDispatch();
   const ifCartState = useSelector(selectCartState);
   const cartItems = useSelector(selectCartItems);
@@ -37,6 +39,8 @@ const Cart = () => {
   const onClearCartItems = () => {
     dispatch(setClearCartItems())
   }
+
+  const handleOnClose = ()=> setShowMyModel(false)
   
   return (
     <>
@@ -69,12 +73,13 @@ const Cart = () => {
               </div>
               <div className="grid items-center gap-2">
                 <p className="text-sm font-medium text-center">Taxes and Shipping Will Calculate At Shipping</p>
-                <button type="button" className="button-theme bg-theme-cart text-white">Check Out</button>
+                <button onClick={()=> setShowMyModel(true)} type="button" className="button-theme bg-theme-cart text-white">Check Out</button>
               </div>
             </div>
 
           </div>}
         </div>
+        <MyModal onClose={handleOnClose} visible ={ShowMyModel} />
       </div>
     </>
   );
