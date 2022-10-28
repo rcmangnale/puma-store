@@ -46,7 +46,7 @@ export default function MyModal({ visible, onClose }) {
           />
         </div>
         <div className="text-center">
-          <button className="px-5 py-2 bg-gray-700 text-white rounded">
+          <button onClick={()=>{ alert('Order Placed'); }} className="px-5 py-2 bg-gray-700 text-white rounded">
             place Order
           </button>
         </div>
