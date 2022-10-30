@@ -15,7 +15,7 @@ export default function MyModal({ visible, onClose }) {
     >
       <div className="bg-white p-2 rounded w-72">
         <h1 className="font-semibold text-center text-xl text-gray-700">
-          Checkout Details
+          Checkout Details 
         </h1>
 
         <div className="flex flex-col">
